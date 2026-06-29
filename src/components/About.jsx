@@ -22,19 +22,19 @@ export default function About() {
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <div className="space-y-5 text-slate-300 text-lg leading-relaxed">
                         <p>
-                            Hello! I'm Snigdha, a Computer Science student passionate about artificial intelligence, backend systems, and building meaningful software.
+                            Hello! I'm Snigdha.
                         </p>
                         <p>
-                            I enjoy solving problems through technology and working on projects that combine logic, creativity, and real-world impact. Recently, I've been exploring machine learning, LLM evaluation, and backend development while working as an AI intern.
+                            Backend Developer Intern and Computer Science student with experience building scalable web applications using Node.js, Express.js, PostgreSQL, Redis, and Socket.IO.
                         </p>
                         <p>
-                            I'm particularly interested in building intelligent systems and scalable applications that solve real-world problems.
+                            Passionate about designing reliable systems, solving challenging problems, and continuously learning emerging technologies.
                         </p>
 
                         <div className="pt-4">
                             <p className="font-bold text-white mb-4">Technologies I work with:</p>
                             <div className="flex flex-wrap gap-3">
-                                {["Python", "Java", "React", "Node.js", "MySQL", "MongoDB", "Machine Learning"].map((tech, idx) => (
+                                {["Java", "Python", "Node.js", "Express.js", "PostgreSQL", "Redis", "Socket.IO", "React", "Git", "REST APIs"].map((tech, idx) => (
                                     <span key={idx} className="rounded-full px-4 py-2 bg-slate-800 border border-slate-700 hover:border-sky-400 transition-colors text-sm font-mono text-slate-300">
                                         {tech}
                                     </span>

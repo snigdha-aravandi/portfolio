@@ -3,26 +3,24 @@ import { motion } from 'framer-motion';
 
 const experiences = [
     {
-        company: "Ethara AI",
-        role: "LLM Post Training Intern",
-        period: "Feb 2026 – Present",
-        description: [
-            "Worked on AI data workflows supporting Large Language Model (LLM) post-training and evaluation.",
-            "Performed data annotation and response evaluation to improve model accuracy and reliability.",
-            "Collaborated with quality teams to maintain AI data standards and evaluation consistency."
-        ],
-        techBadges: ["LLM Evaluation", "Data Annotation", "AI Workflows"]
-    },
-    {
         company: "Kravix Tech",
         role: "Backend Developer Intern",
         period: "Feb 2026 – Present",
         description: [
-            "Developing backend APIs and services for internal platforms including MelodyMeet.",
-            "Working with databases and backend architecture to support scalable web applications.",
-            "Implementing secure data handling and system integrations for backend features."
+            "Developing scalable backend services for MelodyMeet using Node.js, Express.js, PostgreSQL, Redis, and Socket.IO.",
+            "Designing and implementing RESTful APIs for authentication, user management, messaging, and session handling.",
+            "Building real-time communication features using WebSockets while contributing to a microservice-based architecture.",
+            "Optimizing database operations and integrating backend services to improve application performance and scalability."
         ],
-        techBadges: ["Node.js", "Backend APIs", "Databases"]
+        techBadges: [
+            "Node.js",
+            "Express.js",
+            "PostgreSQL",
+            "Redis",
+            "Socket.IO",
+            "REST APIs",
+            "Microservices"
+        ]
     }
 ];
 

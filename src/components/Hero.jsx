@@ -70,11 +70,11 @@ export default function Hero() {
                         <span className="text-accent">
                             <TypeAnimation
                                 sequence={[
-                                    'Machine Learning Enthusiast',
+                                    'Computer Science Student',
                                     2000,
                                     'Backend Developer',
                                     2000,
-                                    'AI Engineer',
+                                    'Software Engineer',
                                     2000,
                                     'Problem Solver',
                                     2000,
@@ -89,8 +89,8 @@ export default function Hero() {
 
                 <motion.div variants={itemVariants} className="text-base md:text-lg text-slate-400 mb-12 max-w-2xl mx-auto leading-relaxed space-y-4">
                     <p>
-                        I'm a Computer Science student passionate about artificial intelligence, backend systems, and building useful software.
-                        Currently working as an AI intern and exploring machine learning, LLM evaluation, and scalable backend applications.
+                        I'm a Computer Science student who enjoys turning ideas into reliable software.
+                        From designing backend architectures to building real-time applications, I focus on writing clean, maintainable code while exploring AI, machine learning, and modern software development practices.
                     </p>
                 </motion.div>
 

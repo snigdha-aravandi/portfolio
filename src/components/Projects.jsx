@@ -4,23 +4,61 @@ import { Github, ExternalLink } from 'lucide-react';
 
 const projects = [
     {
+        title: "MelodyMeet",
+        description:
+            "A scalable real-time social communication platform built with a microservices architecture. Developed backend services for authentication, messaging, user presence, and session management using WebSockets and REST APIs.",
+        tags: [
+            "Node.js",
+            "Express.js",
+            "PostgreSQL",
+            "Redis",
+            "Socket.IO",
+            "REST APIs"
+        ],
+        github: "", // Add repository if public
+        live: ""
+    },
+
+    {
         title: "Adaptive E-Learning System",
-        description: "Machine learning based e-learning platform that personalizes learning paths based on student performance and mastery prediction.",
-        tags: ["Python", "Machine Learning", "React", "Node.js"],
+        description:
+            "A personalized adaptive learning platform that dynamically recommends learning paths using competency graph modeling and mastery prediction based on student performance.",
+        tags: [
+            "Python",
+            "Flask",
+            "SQLite",
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ],
         github: "https://github.com/snigdha-aravandi/Adaptive-Elearning",
         live: ""
     },
+
     {
         title: "Library Management System",
-        description: "Full-stack web application that allows admins and students to manage books, track borrowing activity, and handle library operations through an intuitive dashboard.",
-        tags: ["React", "Node.js", "MySQL", "JavaScript"],
+        description:
+            "A full-stack web application for managing books, users, and borrowing records with secure authentication, role-based access, and an intuitive dashboard.",
+        tags: [
+            "React",
+            "Node.js",
+            "MySQL",
+            "Express.js"
+        ],
         github: "https://github.com/snigdha-aravandi/Library-Management-System",
         live: "https://mm-library-frontend-7c8c.vercel.app/"
     },
+
     {
         title: "Mental Wellness Companion",
-        description: "Web application that helps users track mood patterns and access mental health resources through a clean and simple user interface.",
-        tags: ["HTML", "CSS", "JavaScript"],
+        description:
+            "A responsive web application that enables users to track moods, maintain journals, and explore wellness resources through a clean and user-friendly interface.",
+        tags: [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "MySQL"
+        ],
         github: "",
         live: "https://akularishi.github.io/Mental_Wellness_Companion/home.html"
     }

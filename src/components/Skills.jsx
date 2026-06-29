@@ -6,22 +6,46 @@ const skillsData = [
     {
         category: "Languages",
         icon: <Code2 className="w-8 h-8 text-accent" />,
-        skills: ["Java", "C++", "Python", "JavaScript", "HTML", "CSS"]
+        skills: [
+            "Java",
+            "Python",
+            "C++",
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ]
     },
     {
-        category: "Frameworks",
+        category: "Backend",
         icon: <Blocks className="w-8 h-8 text-accent" />,
-        skills: ["React", "Node.js", "Express.js"]
-    },
-    {
-        category: "Tools",
-        icon: <Wrench className="w-8 h-8 text-accent" />,
-        skills: ["Git", "GitHub", "VS Code", "Postman"]
+        skills: [
+            "Node.js",
+            "Express.js",
+            "REST APIs",
+            "Socket.IO",
+            "Redis"
+        ]
     },
     {
         category: "Databases",
         icon: <Database className="w-8 h-8 text-accent" />,
-        skills: ["MySQL", "MongoDB", "Redis", "SQLite"]
+        skills: [
+            "PostgreSQL",
+            "MySQL",
+            "SQLite",
+            "MongoDB"
+        ]
+    },
+    {
+        category: "Frontend & Tools",
+        icon: <Wrench className="w-8 h-8 text-accent" />,
+        skills: [
+            "React",
+            "Git",
+            "GitHub",
+            "Postman",
+            "VS Code"
+        ]
     }
 ];
 
